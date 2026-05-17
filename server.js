@@ -7,9 +7,18 @@
 // }
 
 // const { create } = require('domain');
-const http = require('http');
+// const http = require('http');
 
-http.createServer((req,res) => {
-  res.write("hellow")
-  res.end();
-}).listen(1000)
+// http.createServer((req,res) => {
+  // res.write("<h1>Hello World</h1>");
+  // res.end();
+// }).listen(1000)     
+
+
+
+express = require('express');
+app = express();
+
+app.listen(2000 , () => {
+    console.log("running on port 2000");
+})

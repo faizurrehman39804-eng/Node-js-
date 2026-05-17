@@ -1,0 +1,4 @@
+evry create next project off express: { 
+  const express = require('express')
+  const app = express()
+}

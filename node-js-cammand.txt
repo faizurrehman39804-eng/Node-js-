@@ -1,0 +1,3 @@
+npm init -y : crate a file off pakage.json
+npm run dev :
+npm i/install express : create a new express project  
