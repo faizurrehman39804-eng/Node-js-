@@ -1,4 +1,11 @@
-evry create next project off express: { 
-  const express = require('express')
-  const app = express()
+💠evry create next project off express:{ 
+  ➡️ const express = require('express')
+  ➡️ const app = express()
 }
+
+💠 run the express js server:{
+  ➡️app.listen (3000,() =>{
+    console.log("output show in broweser")
+    })
+}
+
